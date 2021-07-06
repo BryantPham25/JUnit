@@ -2,8 +2,8 @@ import java.util.ArrayList;
 
 public class GradeBook
 {
-   private double[] scores;
-   private int scoresSize;
+   private double[] scores; //all the scores
+   private int scoresSize; //index of where scores are addded
 
    /**
       Constructs a gradebook with no scores and a given capacity.
